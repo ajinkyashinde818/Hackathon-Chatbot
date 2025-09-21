@@ -172,4 +172,6 @@ def index():
 
 if __name__ == '__main__':
     print("Starting Chatbot API Server...")
-    app.run(debug=True, host='0.0.0.0', port=5000)
+    # On Render and many PaaS, the port is provided via the PORT env var
+    port = int(os.environ.get("PORT", 5000))
+    app.run(debug=False, host='0.0.0.0', port=port)
