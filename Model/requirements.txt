@@ -1,0 +1,7 @@
+flask
+flask-cors
+python-dotenv
+google-generativeai
+googletrans==4.0.0-rc1
+numpy
+tensorflow (note: large; consider moving heavy local model inference off Render free tier or use Cloud Run)
