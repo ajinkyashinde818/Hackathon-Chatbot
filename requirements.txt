@@ -2,7 +2,9 @@ flask
 flask-cors
 python-dotenv
 google-generativeai
-googletrans==4.0.0-rc1
+deep-translator
 numpy==1.26.4
 tensorflow-cpu==2.16.1
 gradio
+httpx==0.23.3
+httpcore==0.15.0
